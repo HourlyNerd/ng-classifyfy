@@ -1,0 +1,31 @@
+{
+  "name": "ng-classifyfy",
+  "version": "1.0.0",
+  "description": "an ng-classify browserify transform with error handling",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HourlyNerd/ng-classifyfy.git"
+  },
+  "keywords": [
+    "ng-classify",
+    "ngclassify",
+    "browserify"
+  ],
+  "author": "HourlyNerd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HourlyNerd/ng-classifyfy/issues"
+  },
+  "homepage": "https://github.com/HourlyNerd/ng-classifyfy#readme",
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "colors": "^1.1.2",
+    "gulp-util": "^3.0.6",
+    "ng-classify": "^4.1.1",
+    "through": "^2.3.8"
+  }
+}

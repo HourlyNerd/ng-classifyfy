@@ -3,7 +3,7 @@ an ng-classify browerify transform with coffeescript error handing, written in c
 
 # Usage
 ```coffee
-ngclassifyfy = require('ngclassifyfy')
+ngclassifyfy = require('ng-classifyfy')
 
 ngClassifyOptions =
     appName: 'catmanApp'
@@ -16,12 +16,12 @@ b.transform(ngclassifyfy(ngClassifyOptions))
 coffeeescript error reporting is already baked into the transform, but you can modify it:
 
 ```coffee
-ngclassifyfy = require('ngclassifyfy')
+ngclassifyfy = require('ng-classifyfy')
 ngclassifyfy.errorHandler = (file, err) ->
     console.log('this handler is not as good as the one that comes with this transform!', err)
  ```
 
 # install
 ```bash
-npm install ngclassifyfy --save-dev
+npm install ng-classifyfy --save-dev
 ```

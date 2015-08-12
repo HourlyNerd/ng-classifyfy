@@ -13,7 +13,8 @@
   "keywords": [
     "ng-classify",
     "ngclassify",
-    "browserify"
+    "browserify",
+    "browserify-plugin"
   ],
   "author": "HourlyNerd",
   "license": "MIT",

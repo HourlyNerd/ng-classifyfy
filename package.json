@@ -1,6 +1,6 @@
 {
   "name": "ng-classifyfy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "an ng-classify browserify transform with error handling",
   "main": "index.coffee",
   "scripts": {

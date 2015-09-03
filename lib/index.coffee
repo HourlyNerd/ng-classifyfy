@@ -18,9 +18,6 @@ handleError = (file, err) ->
         "'#{error.message}' in #{file}"+"@".bold+"#{loc.first_line}:#{loc.first_column}\n"
         before+first+middle.red.underline+last+after
     )
-module.exports.handleError = handleError
-
-
 createTransform = (ngClassifyOptions = {}) ->
     return  (file) ->
         return through() if not (/\.coffee$/i).test(file)
@@ -37,4 +34,5 @@ createTransform = (ngClassifyOptions = {}) ->
         )
 
 module.exports = createTransform
+module.exports.handleError = handleError
 module.exports.ngclassifyfy = createTransform
